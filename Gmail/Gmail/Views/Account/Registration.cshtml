@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration</title>
+</head>
+<body>
+
+    <h1>Registration</h1>
+    @{
+        for(int i=1;i<=10;i++)
+            {
+                <h1>number=@i</h1>
+        }
+        List<string> lst = new List<string>() { "Raj", "abkay", "kumar" };
+
+
+    }
+
+
+    @foreach (string i in lst)
+    {
+        <h1>@i</h1>
+    }
+
+
+
+    <h2>Current Data   @DateTime.Now.ToLongDateString()</h2>
+</body>
+</html>
+
+

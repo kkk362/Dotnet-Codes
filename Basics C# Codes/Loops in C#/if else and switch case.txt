@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Loop
+{
+    class if_else
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Enter a number");
+            //int a = int.Parse(Console.ReadLine());
+            //if(a%2==0)
+            //{
+            //    Console.WriteLine("Given number is even");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Number is odd");
+            //}
+            //Console.WriteLine("Enter a choice");
+            //int choice = int.Parse(Console.ReadLine());
+            //switch (choice)
+            //{
+            //    case 1:
+            //        Console.WriteLine("First");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("second");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("third");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Number not in range");
+            //        break;
+            //}
+            Console.WriteLine("Enter age");
+            int age = int.Parse(Console.ReadLine());
+           
+           string s = age >= 18 ? "True" : "False";
+            Console.WriteLine(s);
+        }   
+    }
+}

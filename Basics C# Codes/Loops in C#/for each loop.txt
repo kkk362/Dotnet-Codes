@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Loop
+{
+    class Loop2
+    {
+        static void Main(string[] args)
+        {
+            int[] arr = { 10, 20, 30, 40, 50 };
+            foreach(int i in arr)
+            {
+                Console.WriteLine(i);
+            }
+            string[] name = { "Arjun", "Ram" };
+            foreach(string n in name)
+            {
+                Console.WriteLine(n);
+            }
+            double[] salary = { 100.00, 200.00, 300.00, 400.00 };
+            foreach(double d in salary)
+            {
+                Console.WriteLine(d);
+            }
+            object[] emp = { 1, "raj", 1000.00, true, 'r' };
+            foreach(object o in emp)
+            {
+                Console.WriteLine(o);
+            }
+            
+            Console.ReadLine();
+        }
+
+    }
+}

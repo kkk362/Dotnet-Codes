@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script>
+        function showall() {
+            $.ajax({
+                type: "GET",
+                url: "https://localhost:44335/api/EmpInfodb/DisplayAll",
+                contentType: "application/json",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (key, value) {
+                        var jsdata = JSON.stringify(value);
+                        //pares json
+                        var objData = $.parseJSON(jsdata);
+                        var id = objData.id;
+                        var name = objData.empName;
+                        var salary = objData.salary;
+                        $('<tr><td>' + id + '</td><td>' + name + '</td><td>' + salary + '</td></tr>').appendTo('#employee');
+                    });
+                },
+                error: function (xhr, ajaxOptions, thrownError){
+                alert("Error : " + thrownError);
+         
+                  
+                }
+
+            });
+        }
+
+    </script>
+
+
+    <meta name="viewport" content="width=device-width" />
+    <title>showAllEMployee</title>
+</head>
+<body>
+    <table border="1" id="employee" cellpadding="5" cellspacing="5">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Salary</td>
+        </tr>
+
+    </table>
+    <input type="button" value="showAllEmp" onclick="showall()" />
+</body>
+</html>

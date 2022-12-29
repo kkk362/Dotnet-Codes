@@ -1,0 +1,40 @@
+﻿@using Gmail.Models;
+@{
+    Layout = null;
+
+    var data =(List<Employee>) ViewData["data"];
+
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowAllEmp</title>
+</head>
+<body>
+    @foreach (var i in data)
+    {
+        <table border="1">
+            <tr>
+                <td>EmpId</td>
+                <td>EmpName</td>
+                <td>EmpAddress</td>
+                <td>Emp  salary</td>
+            </tr>
+            <tr>
+                <td>@i.Id</td>
+                <td>@i.Name</td>
+                <td>@i.Address</td>
+                <td>@i.Salary</td>
+            </tr>
+        </table>
+
+        
+    }
+
+
+</body>
+</html>

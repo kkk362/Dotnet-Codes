@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Display";
+}
+
+<body>
+    @foreach (var i in ViewBag.AllEmp)
+    {
+        <table border="1">
+            <tr>
+                <td>EmpId</td>
+                <td>EmpName</td>
+                <td>EmpAddress</td>
+                <td>Emp  salary</td>
+            </tr>
+            <tr>
+                <td>@i.id</td>
+                <td>@i.Name</td>
+                <td>@i.Address</td>
+                <td>@i.Salary</td>
+            </tr>
+        </table>
+
+
+    }
+
+
+</body>
+

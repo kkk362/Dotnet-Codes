@@ -1,0 +1,7 @@
+C:\C#Practice\Day4_FileHandling\Day4_FileHandling\bin\Debug\Day4_FileHandling.exe.config
+C:\C#Practice\Day4_FileHandling\Day4_FileHandling\bin\Debug\Day4_FileHandling.exe
+C:\C#Practice\Day4_FileHandling\Day4_FileHandling\bin\Debug\Day4_FileHandling.pdb
+C:\C#Practice\Day4_FileHandling\Day4_FileHandling\obj\Debug\Day4_FileHandling.csproj.AssemblyReference.cache
+C:\C#Practice\Day4_FileHandling\Day4_FileHandling\obj\Debug\Day4_FileHandling.csproj.CoreCompileInputs.cache
+C:\C#Practice\Day4_FileHandling\Day4_FileHandling\obj\Debug\Day4_FileHandling.exe
+C:\C#Practice\Day4_FileHandling\Day4_FileHandling\obj\Debug\Day4_FileHandling.pdb

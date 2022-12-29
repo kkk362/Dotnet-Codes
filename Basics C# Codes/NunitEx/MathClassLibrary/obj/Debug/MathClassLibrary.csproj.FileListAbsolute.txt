@@ -1,0 +1,5 @@
+C:\Users\Lenovo\source\repos\NunitEx\MathClassLibrary\bin\Debug\MathClassLibrary.dll
+C:\Users\Lenovo\source\repos\NunitEx\MathClassLibrary\bin\Debug\MathClassLibrary.pdb
+C:\Users\Lenovo\source\repos\NunitEx\MathClassLibrary\obj\Debug\MathClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\NunitEx\MathClassLibrary\obj\Debug\MathClassLibrary.dll
+C:\Users\Lenovo\source\repos\NunitEx\MathClassLibrary\obj\Debug\MathClassLibrary.pdb

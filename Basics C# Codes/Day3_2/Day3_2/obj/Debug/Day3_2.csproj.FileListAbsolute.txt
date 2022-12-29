@@ -1,0 +1,7 @@
+C:\C#Practice\Day3_2\Day3_2\bin\Debug\Day3_2.exe.config
+C:\C#Practice\Day3_2\Day3_2\bin\Debug\Day3_2.exe
+C:\C#Practice\Day3_2\Day3_2\bin\Debug\Day3_2.pdb
+C:\C#Practice\Day3_2\Day3_2\obj\Debug\Day3_2.csproj.AssemblyReference.cache
+C:\C#Practice\Day3_2\Day3_2\obj\Debug\Day3_2.csproj.CoreCompileInputs.cache
+C:\C#Practice\Day3_2\Day3_2\obj\Debug\Day3_2.exe
+C:\C#Practice\Day3_2\Day3_2\obj\Debug\Day3_2.pdb
